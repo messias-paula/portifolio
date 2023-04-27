@@ -41,7 +41,7 @@ function entrar(){
   })
    
   if(userValid.user && senha.value == userValid.senha){
-    const newLocal = 'https://portif-lio-nphr-kh53160oy-ruan1346.vercel.app/'
+    const newLocal = 'https://apresentacao-iota.vercel.app/'
     window.location.href = newLocal
     
     let mathRandom = Math.random().toString(16).substr(2)
